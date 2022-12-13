@@ -9,7 +9,7 @@
 
 void print_alphabet(void)
 {
-	char word[] = "abcdefghijklmnopqrstuvwxyz"
+	char word[] = "abcdefghijklmnopqrstuvwxyz";
 	int count = strlen(word);
 
 	for (i = 0; i < count; i++)
