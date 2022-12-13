@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _isalpha - check the code
+ * print_sign - check the code
  *  *@c: letter being tested
  * Return: Always 0.
  */
 
-int _isalpha(int c)
+int print_sign(int c)
 {
 	if (c > 0)
 	{
