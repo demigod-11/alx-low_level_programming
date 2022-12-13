@@ -9,13 +9,18 @@
 
 void print_alphabet_x10(void)
 {
-
+	char word[] = "abcdefghijklmnopqrstuvwxyz";
+	int count = strlen(word);
+	int i;
 	int j;
 
 	for (j = 0; j < 10; j++)
 	{
 
-		print_alphabet();
+		for (i = 0; i < count; i++)
+		{
+			_putchar(word[i]);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
