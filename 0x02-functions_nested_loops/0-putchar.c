@@ -10,8 +10,9 @@ int main(void)
 {
 	char word[] = "_putchar";
 	int i;
+	int count = strlen(word);
 
-	for (i = 0; i < strlen(word); i++)
+	for (i = 0; i < count; i++)
 	{
 		_putchar(word[i]);
 	}
