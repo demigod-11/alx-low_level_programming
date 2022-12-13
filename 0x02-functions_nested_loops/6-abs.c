@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * print_sign - check the code
+ * _abs - check the code
  *  *@c: letter being tested
  * Return: Always 0.
  */
