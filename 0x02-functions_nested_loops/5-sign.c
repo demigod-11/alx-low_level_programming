@@ -21,6 +21,7 @@ int print_sign(int c)
 	}
 	else
 	{
+		_putchar(0);
 		return (0);
 	}
 }
