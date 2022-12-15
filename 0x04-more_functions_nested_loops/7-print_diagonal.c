@@ -3,6 +3,9 @@
  * @n : The number of lines using '\' characters to use
  * Return: Void.
  */
+
+#include "main.h"
+
 void print_diagonal(int n)
 {
 	int i;
