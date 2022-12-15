@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * mul - Multiply 2 integers.
- * @i: Integer Incrementor
+ * print_numbers - Function print numbers from 0-9
  * Return: Void
  */
+
 void  print_numbers(void)
-{	
+{
 	int i;
+
 	for (i = 0; i < 10; i++)
 	{
 		_putchar(i + '0');
