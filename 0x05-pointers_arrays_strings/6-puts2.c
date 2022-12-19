@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
-* _puts  - prints a string and a new line.
+* puts2 - prints every other character of a string.
 * @str: string to print (*char)
 * Return: void.
 */
@@ -13,7 +12,10 @@ void _puts(char *str)
 
 	for (j = 0; str[j] != '\0'; j+=2)
 	{
-		_putchar(str[j]);
+		if (j % 2 == 0)
+		{
+			_putchar(str[j]);
+		}
 	}
 	_putchar('\n');
 }
