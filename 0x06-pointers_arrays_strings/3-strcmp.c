@@ -1,29 +1,27 @@
 #include "main.h"
 
 /**
- * _strncpy -  function that copies a string..
- * @src: source
- * @dest: destination
- * @n: number.
+ * _strcmp -  function that compares two strings.
+ * @s1: first string.
+ * @s2: second string.
  * Return: void
  */
 
 
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
 
 	int i = 0;
 
-	while (i < n && *src != '\0')
+	while (*s1 == *s2 && *s1 != '\0')
 	{
-		dest[i] = src[i];
-		i++;
+		s1++;
+		s2++;
 	}
 
-	while (i < n)
+	if (s1 != s2)
 	{
-		dest[i] = '\0';
-		i++;
+		i = *s1 - *s2;
 	}
-	return (dest);
+	return (i);
 }
