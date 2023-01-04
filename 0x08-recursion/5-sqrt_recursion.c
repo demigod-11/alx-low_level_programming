@@ -8,17 +8,17 @@
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt_recursion(n, 1));
+	return (_sqrt_rec(n, 1));
 }
 
 /**
- * _sqrt_recursion - _sqrt_recursion
+ * _sqrt_rec - _sqrt_recursion
  * @n: integer paramter
  * @i: integer parameter
  * Return: sqrt
  */
 
-int _sqrt_recursion(int n, int i)
+int _sqrt_rec(int n, int i)
 {
 	if (n < 0)
 		return (-1);
