@@ -1,3 +1,6 @@
+#include "main.h"
+#include <math.h>
+
 /**
  * is_prime_number - prime
  * @n: integer params
@@ -32,4 +35,5 @@ int is_prime_number_helper(int n, int low, int high)
 		return (1);
 	if (n % low == 0)
 		return (0);
+	return (is_prime_number_helper(n, low + 1, high));
 }
