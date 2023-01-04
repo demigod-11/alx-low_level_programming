@@ -17,7 +17,7 @@ int is_prime_number(int n)
 	if (n == 2)
 		return (1);
 
-	result = is_prime_number_helper(n, 2, (int) sqrt(n));
+	result = is_prime_number_helper(n, 2, n / 2);
 	return (result);
 }
 
