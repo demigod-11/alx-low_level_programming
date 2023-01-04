@@ -26,5 +26,5 @@ int _sqrt_rec(int n, int i)
 		return (-1);
 	else if (i * i == n)
 		return (i);
-	return (_sqrt(n, i + 1));
+	return (_sqrt_rec(n, i + 1));
 }
