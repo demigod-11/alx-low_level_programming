@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 
 	i = ((max + 1) - min);
 
-	address  = malloc(range * sizeof(i));
+	address  = malloc(i * sizeof(i));
 
 	if (address == NULL)
 	{
