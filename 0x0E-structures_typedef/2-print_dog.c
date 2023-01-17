@@ -7,7 +7,7 @@
  * @d: A dog struct
  *
  * Return: void
- * /
+ */
  
 void print_dog(struct dog *d)
 {
